@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import Home from './Home.js'
 
 import DabbaraNagarjuna from './DabbaraNagarjuna.js'
 import DabbaraShivaPrasad from './DabbaraShivaPrasad.js'
@@ -12,9 +11,8 @@ class App extends Component {
       <div className="App" style={{ position: "relative" }}>
        <Router>
              <Switch>
-             <Route exact path="/" component={Home} /> 
 
-                <Route  path="/DabbaraNagarjuna" component={DabbaraNagarjuna} /> 
+               <Route  path="/DabbaraNagarjuna" component={DabbaraNagarjuna} /> 
                 <Route  path="/DabbaraShivaPrasad" component={DabbaraShivaPrasad} /> 
              </Switch>  
          </Router>
