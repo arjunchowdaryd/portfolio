@@ -17,7 +17,7 @@ function DabbaraNagarjuna() {
     return (
         <div>
         <MyCarousal />
-        <MyTitleMessage intro=" Hi, I am" name="Dabbara Nagarjuna"/>
+        <MyTitleMessage intro=" Hi, I am" name="Nagarjuna"/>
         <MyNavbar />
 
         <div>
@@ -43,7 +43,7 @@ function DabbaraNagarjuna() {
             <Fade duration={500}>
               <hr />
 
-              <Experience companyName="Logic Refine" projectName="VDoctors" Description=""/>
+              <Experience companyName="Logic Refine" projectName="VDoctors" Description="OnGoing-Project"/>
             </Fade>
           </Container>
         </div>

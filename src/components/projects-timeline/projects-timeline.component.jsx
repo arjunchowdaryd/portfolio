@@ -1,7 +1,7 @@
 import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import AnanyaEngineers from "../../assets/img/projects/ananyaengineers.PNG";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+import TrinetraWebTechnologies from "../../assets/img/projects/trinetraweb.PNG";
 import Amazon from "../../assets/img/projects/amazon.PNG";
 import Netflix from "../../assets/img/projects/netflix.PNG";
 import AmazonClone from "../../assets/img/projects/amazonClone.PNG";
@@ -29,7 +29,7 @@ export default function TimeLine() {
       <Timeline>
         <Events>
           {/* Project: Smart Brain */}
-          <ImageEvent date="AnanyaEngineers" className="text-center" text="AnanyaEngineers" src={AnanyaEngineers} alt="">
+          <ImageEvent date="AnanyaEngineers" className="text-center" text="OnGoing-Project" src={AnanyaEngineers} alt="">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -85,7 +85,7 @@ export default function TimeLine() {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent date="TrinetraWebTechnologies" className="text-center" text="TrinetraWebTechnologies" src={AnanyaEngineers} alt="Robo Friends">
+          <ImageEvent date="TrinetraWebTechnologies" className="text-center" text="OnGoing-Project" src={TrinetraWebTechnologies} alt="Robo Friends">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -149,7 +149,7 @@ export default function TimeLine() {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent date="Amazon-Ecommerce" className="text-center" text="Amazon-Ecommerce" src={Amazon} alt="Product Hunt Clone">
+          <ImageEvent date="Amazon-Ecommerce" className="text-center" text="Completed-Project" src={Amazon} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -217,7 +217,7 @@ export default function TimeLine() {
           </ImageEvent>
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent date="Netflix-Clone" className="text-center" text="Netflix-Clone" src={Netflix} alt="Portfolio using Django">
+          <ImageEvent date="Netflix-Clone" className="text-center" text="Completed-Project" src={Netflix} alt="Portfolio using Django">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -302,7 +302,7 @@ export default function TimeLine() {
 
   {/* Project: Product_Hunt_Clone */}
 
-  <ImageEvent date="Amazon-clone" className="text-center" text="Amazon-Clone" src={AmazonClone} alt="Product Hunt Clone">
+  <ImageEvent date="Amazon-clone" className="text-center" text="Completed-Project" src={AmazonClone} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>

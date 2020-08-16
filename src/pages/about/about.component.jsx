@@ -21,7 +21,7 @@ const About = (props) => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Dabbara {props.name}</strong>
+                Hi there! I am <strong>&nbsp;{props.name}</strong>
                 <br />A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with Javascript,React.js, Node.js , Express.js, and MongoDB as my tech stack.
                 <br />
              
