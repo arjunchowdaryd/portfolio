@@ -39,7 +39,7 @@ const About = (props) => {
                     </a>
                   </div>
                   <div>
-                    <a href="" target="_blank" rel="noopener noreferrer">
+                    <a href="../../assets/files/resume.pdf" target="_blank" rel="noopener noreferrer" download>
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
