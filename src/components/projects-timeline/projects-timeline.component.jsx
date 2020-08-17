@@ -5,6 +5,7 @@ import TrinetraWebTechnologies from "../../assets/img/projects/trinetraweb.PNG";
 import Amazon from "../../assets/img/projects/amazon.PNG";
 import Netflix from "../../assets/img/projects/netflix.PNG";
 import AmazonClone from "../../assets/img/projects/amazonClone.PNG";
+import DisneyHotstar from "../../assets/img/projects/disney.PNG";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -40,13 +41,12 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> 
+                        <strong>Description:</strong>This is Ananya Engineers(Ananya Global Consultants Private Limited) website built using ReactJs and NodeJs. 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li></li>
-                          <li></li>
-                          <li></li>
+                        <li>Send emails</li>
+                          <li>Hosted using AWS under www.ananyaengineers.com</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -96,25 +96,19 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to search through robots fetched in real-time with users.
+                        <strong>Description:</strong>Own project
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
+                        <li>Send emails</li>
+                          <li>Hosted using AWS under www.trinetrawebtechnologies.com</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
+                        <li>
                             <span className="p-2">
                               <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_REDUX} alt="Redux" rounded className="image-style m-1"></Image> Redux
                             </span>
                           </li>
                           <li>
@@ -127,11 +121,6 @@ export default function TimeLine() {
                               <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
-                            </span>
-                          </li>
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -139,7 +128,7 @@ export default function TimeLine() {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="" target="_blank">
+                <UrlButton href="https://master.d3jrvss492dja4.amplifyapp.com/" target="_blank">
                   SEE LIVE
                 </UrlButton>
              
@@ -149,7 +138,7 @@ export default function TimeLine() {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent date="Amazon-Ecommerce" className="text-center" text="Completed-Project" src={Amazon} alt="Product Hunt Clone">
+          <ImageEvent date="Amazon-Ecommerce" className="text-center" text="OnGoing-Project" src={Amazon} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -160,43 +149,27 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of Product Hunt built using Django.
+                      <strong>Description:</strong>This is my Own website built using ReactJs and NodeJs.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
+                        <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
                             </span>
                           </li>
                         </ul>
@@ -228,61 +201,23 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my Netflix website built using ReactJs.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>Hosted using Digital ocean under www.akjfun.com</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
+                      <ul>
+                        <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DIGITAL_OCEAN} alt="Digital Ocean" rounded className="image-style m-1"></Image> Digital-Ocean
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
                             </span>
                           </li>
                         </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
@@ -302,7 +237,7 @@ export default function TimeLine() {
 
   {/* Project: Product_Hunt_Clone */}
 
-  <ImageEvent date="Amazon-clone" className="text-center" text="Completed-Project" src={AmazonClone} alt="Product Hunt Clone">
+  <ImageEvent date="Amazon-clone" className="text-center" text="OnGoing-Project" src={AmazonClone} alt="Product Hunt Clone">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
                 <Accordion>
@@ -313,43 +248,20 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of Product Hunt built using Django.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
+                      <ul>
+                        <li>
                             <span className="p-2">
-                              <Image src={L_HTML5} alt="HTML 5" rounded className="image-style m-1"></Image> HTML5
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1"></Image> CSS3
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image src={L_BOOTSTRAP4} alt="Bootstrap 4" rounded className="image-style m-1"></Image> Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_DJANGO} alt="Django" rounded className="image-style m-1"></Image> Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image src={L_POSTGRESQL} alt="PostgreSQL" rounded className="image-style1 m-1"></Image> PostgreSQL
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
                             </span>
                           </li>
                         </ul>
@@ -370,7 +282,50 @@ export default function TimeLine() {
           </ImageEvent>
 
 
+   {/* Project: Portfolio using Django */}
+   <ImageEvent date="Netflix-Clone" className="text-center" text="Completed-Project" src={DisneyHotstar} alt="Portfolio using Django">
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
 
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                      <ul>
+                        <li>
+                            <span className="p-2">
+                              <Image src={L_REACT} alt="React" rounded className="image-style1 m-1"></Image> React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_NODE_JS} alt="Node.js" rounded className="image-style1 m-1"></Image> Node.js
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image src={L_EXPRESS} alt="Express" rounded className="image-style1 m-1"></Image> Express
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton href="https://master.d200z3x6dnhhwf.amplifyapp.com/" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton href="https://github.com/arjunchowdaryd/DisneyHotsatr-clone" target="_blank">
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
 
 
 
