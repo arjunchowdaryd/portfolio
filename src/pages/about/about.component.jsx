@@ -38,13 +38,7 @@ const About = (props) => {
                       </Button>
                     </a>
                   </div>
-                  <div>
-                    <a href="../../assets/files/resume.pdf" target="_blank" rel="noopener noreferrer" download>
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
-                      </Button>
-                    </a>
-                  </div>
+                 
                   <div>
                     <a href="https://github.com/arjunchowdaryd?tab=repositories" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
